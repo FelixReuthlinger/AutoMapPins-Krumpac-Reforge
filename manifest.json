@@ -1,0 +1,10 @@
+{
+  "name": "AutoMapPins_Krumpac_Reforge",
+  "description": "AutoMapPins config for Krumpac Reforge.",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/FelixReuthlinger/AutoMapPins-Krumpac-Reforge",
+  "dependencies": [
+    "FixItFelix-AutoMapPins-1.1.7",
+    "denikson-BepInExPack_Valheim-5.4.2105"
+  ]
+}
