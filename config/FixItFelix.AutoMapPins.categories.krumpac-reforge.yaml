@@ -1,13 +1,6 @@
 reforge_locations:
   categoryActive: true
   pins:
-    krumplocmaedowsstatueboar:
-      categoryName: reforge_locations
-      internalName: krumplocmaedowsstatueboar
-      name: Hildesvini statue
-      iconName: monument
-      isPermanent: true
-      isActive: true
     krumplococeanshipwreck:
       categoryName: reforge_locations
       internalName: krumplococeanshipwreck
@@ -36,6 +29,41 @@ reforge_locations:
       iconName: bones
       isPermanent: true
       isActive: true
+    krumplocmeadowsgreylingtree:
+      categoryName: reforge_locations
+      internalName: krumplocmeadowsgreylingtree
+      name: Mother
+      iconName: monument
+      isPermanent: true
+      isActive: true
+    krumplocmeadowsstatueboar:
+      categoryName: reforge_locations
+      internalName: krumplocmeadowsstatueboar
+      name: Hildesvini statue
+      iconName: monument
+      isPermanent: true
+      isActive: true
+    krumplocmeadowsvillage:
+      categoryName: n_a
+      internalName: krumplocmeadowsvillage
+      name: Village
+      iconName: village
+      isPermanent: true
+      isActive: true
+      groupable: true
+      groupingDistance: 15
+reforge_spawners:
+  categoryActive: true
+  pins:
+    krumpspawnermonsterratholedungeon:
+      categoryName: reforge_spawners
+      internalName: krumpspawnermonsterratholedungeon
+      name: Rat hole
+      iconName: spawner
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
 reforge_herbs:
   categoryActive: true
   pins:
@@ -462,6 +490,15 @@ reforge_animals:
       isActive: false
       groupable: false
       groupingDistance: 15
+    krumpfishshrimp:
+      categoryName: reforge_animals
+      internalName: krumpfishshrimp
+      name: Shrimp
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
 reforge_seeds:
   categoryActive: true
   pins:
@@ -797,6 +834,24 @@ reforge_misc:
     krumprpenvrockplains:
       categoryName: reforge_misc
       internalName: krumprpenvrockplains
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    ddeercarcassstand:
+      categoryName: reforge_misc
+      internalName: ddeercarcassstand
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    dboarcarcassstand:
+      categoryName: reforge_misc
+      internalName: dboarcarcassstand
       name: n_a
       iconName: n_a
       isPermanent: false
