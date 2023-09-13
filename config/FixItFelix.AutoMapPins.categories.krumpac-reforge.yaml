@@ -109,7 +109,7 @@ reforge_herbs:
       name: Chervil
       iconName: herb48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dchivesherb:
@@ -118,7 +118,7 @@ reforge_herbs:
       name: Chives
       iconName: herb48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     drosemaryherb:
@@ -262,7 +262,7 @@ reforge_harvestable_trees:
       name: Apple
       iconName: tree48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dappletree:
@@ -280,7 +280,7 @@ reforge_harvestable_trees:
       name: Walnut
       iconName: tree48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dwalnuttree:
@@ -298,7 +298,7 @@ reforge_harvestable_trees:
       name: Orange
       iconName: tree48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dorangetree:
@@ -316,7 +316,7 @@ reforge_harvestable_trees:
       name: Plum
       iconName: tree48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dplumtree:
@@ -337,7 +337,7 @@ reforge_harvestable_materials:
       name: Hays
       iconName: hay48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dpickablehay:
@@ -391,7 +391,7 @@ reforge_harvestable_materials:
       name: Urchin
       iconName: hand48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     krumpspawnerpickableoceanchitin:
