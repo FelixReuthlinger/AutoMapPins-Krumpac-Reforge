@@ -1,3 +1,5 @@
+* 1.0.3 ->
+  * fixes and new stuff added
 * 1.0.2 ->
   * deactivated some pins, since the current version spawns way too many of those
 * 1.0.1 ->

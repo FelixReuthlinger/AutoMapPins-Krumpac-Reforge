@@ -44,7 +44,7 @@ reforge_locations:
       isPermanent: true
       isActive: true
     krumplocmeadowsvillage:
-      categoryName: n_a
+      categoryName: reforge_locations
       internalName: krumplocmeadowsvillage
       name: Village
       iconName: village
@@ -58,6 +58,15 @@ reforge_spawners:
     krumpspawnermonsterratholedungeon:
       categoryName: reforge_spawners
       internalName: krumpspawnermonsterratholedungeon
+      name: Rat hole
+      iconName: spawner
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
+    krumpspawnermonsterratholeterrain:
+      categoryName: reforge_spawners
+      internalName: krumpspawnermonsterratholeterrain
       name: Rat hole
       iconName: spawner
       isPermanent: false
@@ -203,6 +212,15 @@ reforge_bushes:
       iconName: berry48
       isPermanent: false
       isActive: true
+      groupable: true
+      groupingDistance: 15
+    dcottonbush:
+      categoryName: reforge_bushes
+      internalName: dcottonbush
+      name: Cotton
+      iconName: berry48
+      isPermanent: false
+      isActive: false
       groupable: true
       groupingDistance: 15
 reforge_mushrooms:
@@ -547,6 +565,81 @@ reforge_seeds:
       isActive: true
       groupable: true
       groupingDistance: 15
+reforge_saplings:
+  categoryActive: false
+  pins:
+    dcottonsapling:
+      categoryName: reforge_saplings
+      internalName: dcottonsapling
+      name: Cotton
+      iconName: seed48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
+    dpotatoseedsapling:
+      categoryName: reforge_saplings
+      internalName: dpotatoseedsapling
+      name: Potatoe
+      iconName: seed48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
+    dchivesseedsapling:
+      categoryName: reforge_saplings
+      internalName: dchivesseedsapling
+      name: Chives
+      iconName: seed48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
+    dlevanderseedsapling:
+      categoryName: reforge_saplings
+      internalName: dlevanderseedsapling
+      name: Lavender
+      iconName: seed48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
+    dpotatosapling:
+      categoryName: reforge_saplings
+      internalName: dpotatosapling
+      name: Potatoe
+      iconName: seed48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
+    dcarrotseedsapling:
+      categoryName: reforge_saplings
+      internalName: dcarrotseedsapling
+      name: Carrot
+      iconName: seed48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
+    dchivesseedherb:
+      categoryName: reforge_saplings
+      internalName: dchivesseedherb
+      name: Chives
+      iconName: seed48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
+    dlevanderseedherb:
+      categoryName: reforge_saplings
+      internalName: dlevanderseedherb
+      name: Lavender
+      iconName: seed48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
 reforge_temples:
   categoryActive: true
   pins:
@@ -852,6 +945,24 @@ reforge_misc:
     dboarcarcassstand:
       categoryName: reforge_misc
       internalName: dboarcarcassstand
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpbfinewoodchest:
+      categoryName: reforge_misc
+      internalName: krumpbfinewoodchest
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumptreepinestub:
+      categoryName: reforge_misc
+      internalName: krumptreepinestub
       name: n_a
       iconName: n_a
       isPermanent: false
