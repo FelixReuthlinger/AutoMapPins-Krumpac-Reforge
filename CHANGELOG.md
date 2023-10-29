@@ -1,3 +1,4 @@
+* 1.0.5 -> deactivated all treasures, since too many spawned anyways and not that important imho
 * 1.0.4 ->
   * activated urchin and hay due to reduced spawn rates
 * 1.0.3 ->

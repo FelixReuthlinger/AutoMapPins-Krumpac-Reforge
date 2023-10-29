@@ -703,7 +703,7 @@ reforge_dungeons:
       isPermanent: true
       isActive: true
 reforge_treasures:
-  categoryActive: true
+  categoryActive: false
   pins:
     dfoodtreasureswamp:
       categoryName: reforge_treasures
