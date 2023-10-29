@@ -1,3 +1,5 @@
+* 1.0.4 ->
+  * activated urchin and hay due to reduced spawn rates
 * 1.0.3 ->
   * fixes and new stuff added
 * 1.0.2 ->

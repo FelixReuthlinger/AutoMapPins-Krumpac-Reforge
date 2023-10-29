@@ -355,7 +355,7 @@ reforge_harvestable_materials:
       name: Hays
       iconName: hay48
       isPermanent: false
-      isActive: false
+      isActive: true
       groupable: true
       groupingDistance: 15
     dpickablehay:
@@ -364,7 +364,7 @@ reforge_harvestable_materials:
       name: Hays
       iconName: hay48
       isPermanent: false
-      isActive: false
+      isActive: true
       groupable: true
       groupingDistance: 15
     dhaysapling:
@@ -409,7 +409,7 @@ reforge_harvestable_materials:
       name: Urchin
       iconName: hand48
       isPermanent: false
-      isActive: false
+      isActive: true
       groupable: true
       groupingDistance: 15
     krumpspawnerpickableoceanchitin:
