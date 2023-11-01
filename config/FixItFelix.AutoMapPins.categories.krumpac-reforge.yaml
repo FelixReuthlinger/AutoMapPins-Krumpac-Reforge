@@ -136,7 +136,7 @@ reforge_herbs:
       name: Rosemary
       iconName: herb48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dlevanderherb:
@@ -145,7 +145,7 @@ reforge_herbs:
       name: Lavender
       iconName: herb48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     drosemarysapling:
@@ -154,7 +154,7 @@ reforge_herbs:
       name: Rosemary
       iconName: herb48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     derigeronherb:
