@@ -1,7 +1,7 @@
 {
   "name": "AutoMapPins_Krumpac_Reforge",
   "description": "AutoMapPins config for Krumpac Reforge.",
-  "version_number": "1.0.7",
+  "version_number": "1.0.8",
   "website_url": "https://github.com/FelixReuthlinger/AutoMapPins-Krumpac-Reforge",
   "dependencies": [
     "FixItFelix-AutoMapPins-1.2.3",

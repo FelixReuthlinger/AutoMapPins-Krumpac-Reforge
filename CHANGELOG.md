@@ -1,3 +1,4 @@
+* 1.0.8 -> deactivated some pins for swamp, since the objects now are better visible
 * 1.0.7 -> deactivated vanilla treasures
 * 1.0.6 -> deactivated some more herbs, since they spawn too wild
 * 1.0.5 -> deactivated all treasures, since too many spawned anyways and not that important imho
