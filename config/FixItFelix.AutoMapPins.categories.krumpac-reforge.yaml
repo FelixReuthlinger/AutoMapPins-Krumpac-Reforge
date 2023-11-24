@@ -74,7 +74,7 @@ reforge_spawners:
       groupable: true
       groupingDistance: 15
 reforge_herbs:
-  categoryActive: true
+  categoryActive: false
   pins:
     dpickabledandelion:
       categoryName: reforge_herbs
@@ -211,7 +211,7 @@ reforge_bushes:
       name: Blackberry
       iconName: berry48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dcottonbush:
@@ -224,7 +224,7 @@ reforge_bushes:
       groupable: true
       groupingDistance: 15
 reforge_mushrooms:
-  categoryActive: true
+  categoryActive: false
   pins:
     dpickablemushroom:
       categoryName: reforge_mushrooms
@@ -259,7 +259,7 @@ reforge_mushrooms:
       name: Green
       iconName: mushroom48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dpickablesandmushroom:
@@ -268,7 +268,7 @@ reforge_mushrooms:
       name: Sand
       iconName: mushroom48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
 reforge_harvestable_trees:
