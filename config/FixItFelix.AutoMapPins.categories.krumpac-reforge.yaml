@@ -175,6 +175,60 @@ reforge_herbs:
       isActive: true
       groupable: true
       groupingDistance: 15
+    dpickablethistle:
+      categoryName: reforge_herbs
+      internalName: dpickablethistle
+      name: Thistle
+      iconName: herb48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
+    derigeronseedherb:
+      categoryName: reforge_herbs
+      internalName: derigeronseedherb
+      name: Erigeron
+      iconName: herb48
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
+    dcatharanthusherbplant:
+      categoryName: reforge_herbs
+      internalName: dcatharanthusherbplant
+      name: Catharanthus
+      iconName: herb48
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
+    derigeronherbplant:
+      categoryName: reforge_herbs
+      internalName: derigeronherbplant
+      name: Erigeron
+      iconName: herb48
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
+    dchervilseedherb:
+      categoryName: reforge_herbs
+      internalName: dchervilseedherb
+      name: Chervil
+      iconName: herb48
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
+    drosemaryseedherb:
+      categoryName: reforge_herbs
+      internalName: drosemaryseedherb
+      name: Rosemary
+      iconName: herb48
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
 reforge_bushes:
   categoryActive: true
   pins:
@@ -226,6 +280,15 @@ reforge_bushes:
 reforge_mushrooms:
   categoryActive: false
   pins:
+    dpickablefrostmushroom:
+      categoryName: reforge_mushrooms
+      internalName: dpickablefrostmushroom
+      name: Frost
+      iconName: mushroom48
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
     dpickablemushroom:
       categoryName: reforge_mushrooms
       internalName: dpickablemushroom
@@ -274,6 +337,15 @@ reforge_mushrooms:
 reforge_harvestable_trees:
   categoryActive: true
   pins:
+    dsmalllemontree:
+      categoryName: reforge_harvestable_trees
+      internalName: dsmalllemontree
+      name: Lemon
+      iconName: tree48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
     dsmallappletree:
       categoryName: reforge_harvestable_trees
       internalName: dsmallappletree
@@ -355,7 +427,7 @@ reforge_harvestable_materials:
       name: Hays
       iconName: hay48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dpickablehay:
@@ -364,7 +436,7 @@ reforge_harvestable_materials:
       name: Hays
       iconName: hay48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dhaysapling:
@@ -430,6 +502,42 @@ reforge_harvestable_materials:
       isActive: true
       groupable: true
       groupingDistance: 15
+    krumpspawnerpickableflint:
+      categoryName: reforge_harvestable_materials
+      internalName: krumpspawnerpickableflint
+      name: Flint
+      iconName: hand48
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnerpickablehemp:
+      categoryName: reforge_harvestable_materials
+      internalName: krumpspawnerpickablehemp
+      name: Hemp
+      iconName: hand48
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
+    krumpspawnerpickablereed:
+      categoryName: reforge_harvestable_materials
+      internalName: krumpspawnerpickablereed
+      name: Reed
+      iconName: hand48
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
+    dpickablebarley:
+      categoryName: reforge_harvestable_materials
+      internalName: dpickablebarley
+      name: Barley
+      iconName: hand48
+      isPermanent: false
+      isActive: false
+      groupable: true
+      groupingDistance: 15
 reforge_ores:
   categoryActive: true
   pins:
@@ -467,6 +575,24 @@ reforge_ores:
       iconName: mine
       isPermanent: false
       isActive: false
+      groupable: true
+      groupingDistance: 15
+    krumprpenvrockslate:
+      categoryName: reforge_ores
+      internalName: krumprpenvrockslate
+      name: Slate
+      iconName: mine
+      isPermanent: false
+      isActive: true
+      groupable: true
+      groupingDistance: 15
+    krumprpenvrocksalt:
+      categoryName: reforge_ores
+      internalName: krumprpenvrocksalt
+      name: Salt
+      iconName: mine
+      isPermanent: false
+      isActive: true
       groupable: true
       groupingDistance: 15
 reforge_animals:
@@ -702,6 +828,15 @@ reforge_dungeons:
       iconName: dungeon
       isPermanent: true
       isActive: true
+    krumpspawnerpickablemapeikthyr:
+      categoryName: reforge_dungeons
+      internalName: krumpspawnerpickablemapeikthyr
+      name: Map
+      iconName: hand48
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
 reforge_treasures:
   categoryActive: false
   pins:
@@ -768,9 +903,1257 @@ reforge_treasures:
       iconName: treasure
       isPermanent: false
       isActive: true
+    krumpspawnertreasurerunehagalaz:
+      categoryName: reforge_treasures
+      internalName: krumpspawnertreasurerunehagalaz
+      name: Hagalaz
+      iconName: treasure
+      isPermanent: false
+      isActive: true
+      groupable: false
+      groupingDistance: 15
+reforge_runerocks:
+  categoryActive: true
+  pins:
+    krumprunestoneminerockhagalazfull:
+      categoryName: reforge_runerocks
+      internalName: krumprunestoneminerockhagalazfull
+      name: Hagalaz
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumprunestoneminerockfehufull:
+      categoryName: reforge_runerocks
+      internalName: krumprunestoneminerockfehufull
+      name: Fehu
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+reforge_spawnlists:
+  categoryActive: false
+  pins:
+    krumpspawnlistmainmeadowsbush:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainmeadowsbush
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmainreeds:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainreeds
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmainsmallrocks:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainsmallrocks
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmainmeadowstrees:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainmeadowstrees
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmaincoastrocks:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmaincoastrocks
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmainfirs:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainfirs
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmainblackforestbush:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainblackforestbush
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmainpines:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainpines
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmainswamptrees:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainswamptrees
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmaingraves:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmaingraves
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmaincoffins:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmaincoffins
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmainmeadowsoaks:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainmeadowsoaks
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmainherbs:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainherbs
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpspawnlistmainmountainrocks:
+      categoryName: reforge_spawnlists
+      internalName: krumpspawnlistmainmountainrocks
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+reforge_traps:
+  categoryActive: false
+  pins:
+    krumploctrapblackforest:
+      categoryName: reforge_traps
+      internalName: krumploctrapblackforest
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+reforge_clutter:
+  categoryActive: false
+  pins:
+    krumpacrandompickablecandle:
+      categoryName: reforge_clutter
+      internalName: krumpacrandompickablecandle
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpacrandompickablecratedestroyed:
+      categoryName: reforge_clutter
+      internalName: krumpacrandompickablecratedestroyed
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpacrandompickablevasesmall:
+      categoryName: reforge_clutter
+      internalName: krumpacrandompickablevasesmall
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpacrandompickablebasket:
+      categoryName: reforge_clutter
+      internalName: krumpacrandompickablebasket
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpacrandompickablevasebig:
+      categoryName: reforge_clutter
+      internalName: krumpacrandompickablevasebig
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpacrandompickablebarrelfull:
+      categoryName: reforge_clutter
+      internalName: krumpacrandompickablebarrelfull
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpacrandompickablegrave:
+      categoryName: reforge_clutter
+      internalName: krumpacrandompickablegrave
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumpacrandompickablecoffin:
+      categoryName: reforge_clutter
+      internalName: krumpacrandompickablecoffin
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+reforge_fake:
+  categoryActive: false
+  pins:
+    faketowerruinswoodprops:
+      categoryName: reforge_fake
+      internalName: faketowerruinswoodprops
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinspiece:
+      categoryName: reforge_fake
+      internalName: faketowerruinspiece
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousecorewoodlog:
+      categoryName: reforge_fake
+      internalName: fakehousecorewoodlog
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebrpbeamsupport:
+      categoryName: reforge_fake
+      internalName: fakebrpbeamsupport
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebrpbeamsolo:
+      categoryName: reforge_fake
+      internalName: fakebrpbeamsolo
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebrpwoodwall:
+      categoryName: reforge_fake
+      internalName: fakebrpwoodwall
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebrpwoodfloor:
+      categoryName: reforge_fake
+      internalName: fakebrpwoodfloor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebrstraw:
+      categoryName: reforge_fake
+      internalName: fakebrstraw
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebwoodstairs:
+      categoryName: reforge_fake
+      internalName: fakebwoodstairs
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeboldroof:
+      categoryName: reforge_fake
+      internalName: fakeboldroof
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebwallcw:
+      categoryName: reforge_fake
+      internalName: fakebwallcw
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeboldroofflat:
+      categoryName: reforge_fake
+      internalName: fakeboldroofflat
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebpiecetable:
+      categoryName: reforge_fake
+      internalName: fakebpiecetable
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeboldrooftop:
+      categoryName: reforge_fake
+      internalName: fakeboldrooftop
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewoodhouseoldroofflat:
+      categoryName: reforge_fake
+      internalName: fakewoodhouseoldroofflat
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewoodhouserpbeamsupport:
+      categoryName: reforge_fake
+      internalName: fakewoodhouserpbeamsupport
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewoodhouserpwoodwall:
+      categoryName: reforge_fake
+      internalName: fakewoodhouserpwoodwall
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewoodhouserpbeamsolo:
+      categoryName: reforge_fake
+      internalName: fakewoodhouserpbeamsolo
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewoodhouserpwoodfloor:
+      categoryName: reforge_fake
+      internalName: fakewoodhouserpwoodfloor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewoodhouseoldroof:
+      categoryName: reforge_fake
+      internalName: fakewoodhouseoldroof
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousetwoodwalllog:
+      categoryName: reforge_fake
+      internalName: fakehousetwoodwalllog
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewoodhousewoodstepladder:
+      categoryName: reforge_fake
+      internalName: fakewoodhousewoodstepladder
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebeamfakesolofake:
+      categoryName: reforge_fake
+      internalName: fakebeamfakesolofake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakesteelfakecagefake:
+      categoryName: reforge_fake
+      internalName: fakesteelfakecagefake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebeamfakesupportfake:
+      categoryName: reforge_fake
+      internalName: fakebeamfakesupportfake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakechurchfakewallfakeruinedfake:
+      categoryName: reforge_fake
+      internalName: fakechurchfakewallfakeruinedfake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakecollumfake:
+      categoryName: reforge_fake
+      internalName: fakecollumfake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewoodfakefloorfake:
+      categoryName: reforge_fake
+      internalName: fakewoodfakefloorfake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewallfakecwfake:
+      categoryName: reforge_fake
+      internalName: fakewallfakecwfake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakefloorfake:
+      categoryName: reforge_fake
+      internalName: fakefloorfake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakechurchfakearchfake:
+      categoryName: reforge_fake
+      internalName: fakechurchfakearchfake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakechurchfakewindowfake:
+      categoryName: reforge_fake
+      internalName: fakechurchfakewindowfake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakechairfakebench:
+      categoryName: reforge_fake
+      internalName: fakechairfakebench
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakechurchfakearcadefake:
+      categoryName: reforge_fake
+      internalName: fakechurchfakearcadefake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketablefake:
+      categoryName: reforge_fake
+      internalName: faketablefake
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouserpbeamsolo:
+      categoryName: reforge_fake
+      internalName: fakehouserpbeamsolo
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouserpwoodwall:
+      categoryName: reforge_fake
+      internalName: fakehouserpwoodwall
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouseoldroof:
+      categoryName: reforge_fake
+      internalName: fakehouseoldroof
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouserpwoodfloor:
+      categoryName: reforge_fake
+      internalName: fakehouserpwoodfloor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouserpbeam:
+      categoryName: reforge_fake
+      internalName: fakehouserpbeam
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouserpbeamroof:
+      categoryName: reforge_fake
+      internalName: fakehouserpbeamroof
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousewoodstepladder:
+      categoryName: reforge_fake
+      internalName: fakehousewoodstepladder
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousestonestonecollum:
+      categoryName: reforge_fake
+      internalName: fakehousestonestonecollum
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousestonefloor:
+      categoryName: reforge_fake
+      internalName: fakehousestonefloor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousechurchwallruined:
+      categoryName: reforge_fake
+      internalName: fakehousechurchwallruined
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousechurchwindow:
+      categoryName: reforge_fake
+      internalName: fakehousechurchwindow
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousechurcharch:
+      categoryName: reforge_fake
+      internalName: fakehousechurcharch
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousewoodstairsspiral:
+      categoryName: reforge_fake
+      internalName: fakehousewoodstairsspiral
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousewoodstairs:
+      categoryName: reforge_fake
+      internalName: fakehousewoodstairs
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewoodhousestonecollum:
+      categoryName: reforge_fake
+      internalName: fakewoodhousestonecollum
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakewoodhousestonecollumclone:
+      categoryName: reforge_fake
+      internalName: fakewoodhousestonecollumclone
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinstwoodwalllog:
+      categoryName: reforge_fake
+      internalName: faketowerruinstwoodwalllog
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinstpiece:
+      categoryName: reforge_fake
+      internalName: faketowerruinstpiece
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinstwoodprops:
+      categoryName: reforge_fake
+      internalName: faketowerruinstwoodprops
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinsrpwoodfloor:
+      categoryName: reforge_fake
+      internalName: faketowerruinsrpwoodfloor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinsrpwoodwall:
+      categoryName: reforge_fake
+      internalName: faketowerruinsrpwoodwall
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinstwoodfloor:
+      categoryName: reforge_fake
+      internalName: faketowerruinstwoodfloor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinspiecetable:
+      categoryName: reforge_fake
+      internalName: faketowerruinspiecetable
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinspiecechair:
+      categoryName: reforge_fake
+      internalName: faketowerruinspiecechair
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinswallcw:
+      categoryName: reforge_fake
+      internalName: faketowerruinswallcw
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinsrpbeamsolo:
+      categoryName: reforge_fake
+      internalName: faketowerruinsrpbeamsolo
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinswoodstairs:
+      categoryName: reforge_fake
+      internalName: faketowerruinswoodstairs
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinswoodstepladder:
+      categoryName: reforge_fake
+      internalName: faketowerruinswoodstepladder
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebstonestonecollum:
+      categoryName: reforge_fake
+      internalName: fakebstonestonecollum
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebcorewoodlog:
+      categoryName: reforge_fake
+      internalName: fakebcorewoodlog
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouserpbeamx:
+      categoryName: reforge_fake
+      internalName: fakehouserpbeamx
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousewallcw:
+      categoryName: reforge_fake
+      internalName: fakehousewallcw
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouseoldrooftop:
+      categoryName: reforge_fake
+      internalName: fakehouseoldrooftop
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouserpwoodwallwindow:
+      categoryName: reforge_fake
+      internalName: fakehouserpwoodwallwindow
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousewoodfloorx:
+      categoryName: reforge_fake
+      internalName: fakehousewoodfloorx
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouserpbeamsupport:
+      categoryName: reforge_fake
+      internalName: fakehouserpbeamsupport
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehouserproofstrawcornero:
+      categoryName: reforge_fake
+      internalName: fakehouserproofstrawcornero
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebrpbeamroof:
+      categoryName: reforge_fake
+      internalName: fakebrpbeamroof
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebrproofstrawroofending:
+      categoryName: reforge_fake
+      internalName: fakebrproofstrawroofending
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebrpbeamx:
+      categoryName: reforge_fake
+      internalName: fakebrpbeamx
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebrproofstrawtop:
+      categoryName: reforge_fake
+      internalName: fakebrproofstrawtop
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebwooddoor:
+      categoryName: reforge_fake
+      internalName: fakebwooddoor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakebpiecechair:
+      categoryName: reforge_fake
+      internalName: fakebpiecechair
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousenewcollum:
+      categoryName: reforge_fake
+      internalName: fakehousenewcollum
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousenewfloor:
+      categoryName: reforge_fake
+      internalName: fakehousenewfloor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousetpiece:
+      categoryName: reforge_fake
+      internalName: fakehousetpiece
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousenewroof:
+      categoryName: reforge_fake
+      internalName: fakehousenewroof
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousetwoodfloor:
+      categoryName: reforge_fake
+      internalName: fakehousetwoodfloor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeminenewroof:
+      categoryName: reforge_fake
+      internalName: fakeminenewroof
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeminenewcollum:
+      categoryName: reforge_fake
+      internalName: fakeminenewcollum
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeminetwoodprops:
+      categoryName: reforge_fake
+      internalName: fakeminetwoodprops
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeminetpiece:
+      categoryName: reforge_fake
+      internalName: fakeminetpiece
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeminetwoodwalllog:
+      categoryName: reforge_fake
+      internalName: fakeminetwoodwalllog
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeminenewfloor:
+      categoryName: reforge_fake
+      internalName: fakeminenewfloor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeminewallcw:
+      categoryName: reforge_fake
+      internalName: fakeminewallcw
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinsstakeswood:
+      categoryName: reforge_fake
+      internalName: faketowerruinsstakeswood
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinsstakeswoodwall:
+      categoryName: reforge_fake
+      internalName: faketowerruinsstakeswoodwall
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    faketowerruinspiecechairbench:
+      categoryName: reforge_fake
+      internalName: faketowerruinspiecechairbench
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutwallcw:
+      categoryName: reforge_fake
+      internalName: fakeswamphutwallcw
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutrpbeamsolo:
+      categoryName: reforge_fake
+      internalName: fakeswamphutrpbeamsolo
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutrpwoodfloor:
+      categoryName: reforge_fake
+      internalName: fakeswamphutrpwoodfloor
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutrpwoodwall:
+      categoryName: reforge_fake
+      internalName: fakeswamphutrpwoodwall
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutrpbeamwall:
+      categoryName: reforge_fake
+      internalName: fakeswamphutrpbeamwall
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutrpbeamroof:
+      categoryName: reforge_fake
+      internalName: fakeswamphutrpbeamroof
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutoldroof:
+      categoryName: reforge_fake
+      internalName: fakeswamphutoldroof
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutpiecetable:
+      categoryName: reforge_fake
+      internalName: fakeswamphutpiecetable
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutwoodstepladder:
+      categoryName: reforge_fake
+      internalName: fakeswamphutwoodstepladder
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutwoodfloorx:
+      categoryName: reforge_fake
+      internalName: fakeswamphutwoodfloorx
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakeswamphutcorewoodlog:
+      categoryName: reforge_fake
+      internalName: fakeswamphutcorewoodlog
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousestackcorewood:
+      categoryName: reforge_fake
+      internalName: fakehousestackcorewood
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousetwoodpiece:
+      categoryName: reforge_fake
+      internalName: fakehousetwoodpiece
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousetroofpiece:
+      categoryName: reforge_fake
+      internalName: fakehousetroofpiece
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousetroofend:
+      categoryName: reforge_fake
+      internalName: fakehousetroofend
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    fakehousepiecechair:
+      categoryName: reforge_fake
+      internalName: fakehousepiecechair
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
 reforge_misc:
   categoryActive: false
   pins:
+    krumprunestonefull:
+      categoryName: reforge_misc
+      internalName: krumprunestonefull
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
+    krumprpenvheathrockpillar:
+      categoryName: reforge_misc
+      internalName: krumprpenvheathrockpillar
+      name: n_a
+      iconName: n_a
+      isPermanent: false
+      isActive: false
+      groupable: false
+      groupingDistance: 15
     krumprockmountain:
       categoryName: reforge_misc
       internalName: krumprockmountain
@@ -969,4 +2352,3 @@ reforge_misc:
       isActive: false
       groupable: false
       groupingDistance: 15
-

@@ -1,3 +1,4 @@
+* 5.0.0 -> updates for 5.0.0 reforge release
 * 1.0.8 -> deactivated some pins for swamp, since the objects now are better visible
 * 1.0.7 -> deactivated vanilla treasures
 * 1.0.6 -> deactivated some more herbs, since they spawn too wild
