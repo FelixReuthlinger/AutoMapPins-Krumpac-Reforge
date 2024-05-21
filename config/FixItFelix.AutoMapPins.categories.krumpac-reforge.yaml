@@ -427,7 +427,7 @@ reforge_harvestable_materials:
       name: Hays
       iconName: hay48
       isPermanent: false
-      isActive: false
+      isActive: true
       groupable: true
       groupingDistance: 15
     dpickablehay:
@@ -526,7 +526,7 @@ reforge_harvestable_materials:
       name: Reed
       iconName: hand48
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     dpickablebarley:
@@ -583,7 +583,7 @@ reforge_ores:
       name: Slate
       iconName: mine
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
     krumprpenvrocksalt:
@@ -592,7 +592,7 @@ reforge_ores:
       name: Salt
       iconName: mine
       isPermanent: false
-      isActive: true
+      isActive: false
       groupable: true
       groupingDistance: 15
 reforge_animals:
