@@ -1,3 +1,4 @@
+* 6.1.0 -> adopted AMP 2.0 changes, rebuilding config
 * 6.0.0 -> updates for 6.0.0 reforge release
 * 5.0.0 -> updates for 5.0.0 reforge release
 * 1.0.8 -> deactivated some pins for swamp, since the objects now are better visible
