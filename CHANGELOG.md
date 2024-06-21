@@ -1,3 +1,5 @@
+* 6.1.2 -> fixed this goes here to remove file instead of overwriting
+* 6.1.1 -> added more configs, added changes to vanilla
 * 6.1.0 -> adopted AMP 2.0 changes, rebuilding config
 * 6.0.0 -> updates for 6.0.0 reforge release
 * 5.0.0 -> updates for 5.0.0 reforge release

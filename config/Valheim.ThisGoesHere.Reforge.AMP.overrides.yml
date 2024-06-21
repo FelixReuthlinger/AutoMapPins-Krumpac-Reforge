@@ -1,4 +1,3 @@
-﻿PrintComment: ThisGoesHere overwrites AMP configs with reforge changes
-CopyFile:
-- From: config/overrides/FixItFelix.AutoMapPins.categories.vanilla.yaml
-  To: config/FixItFelix.AutoMapPins.categories.vanilla.yaml
+﻿PrintComment: ThisGoesHere removes AMP default configs to replace it with reforge changes
+DeleteFile:
+- config/FixItFelix.AutoMapPins.categories.vanilla.yaml
