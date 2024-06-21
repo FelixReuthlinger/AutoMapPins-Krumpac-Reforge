@@ -226,6 +226,14 @@ reforge_dungeons:
       name: Crypt
       isActive: true
       isPermanent: true
+    DG_SunkenCrypt:
+      name: Sunkencrypt
+      isActive: true
+      isPermanent: true
+    Krump_Dung_BlackForest_Lindisfarne_01:
+      name: Lindisfarne
+      isActive: true
+      isPermanent: true
   isActive: true
   iconName: dungeon
 reforge_mineables_inactive:
@@ -239,6 +247,12 @@ reforge_mineables_inactive:
   - Krump_RP_ENV_Rock_Slate_02_Frac
   - Krump_RP_ENV_Rock_Slate_03_Frac
   isActive: false
+reforge_portals:
+  categoryConfiguredObjects:
+  - Krump_B_Portal
+  isActive: true
+  isPermanent: true
+  iconName: portal
 reforge_mineable_runes:
   individualConfiguredObjects:
     Krump_Spawner_Treasure_Rune_14_Hagalaz:
@@ -259,7 +273,7 @@ reforge_pickables_inactive:
   - D_Food_treasure_blackforest
   - D_Food_treasure_meadows
   - D_Food_treasure_swamp
-  - Krump_Spawner_Treasure_BlackForest
+  - Krump_Spawner_Leviathan_FloatingIsland
   - Krump_Spawner_Pickable_Branch
   - Krump_Spawner_Pickable_DuraKit_01
   - Krump_Spawner_Pickable_Flint
@@ -270,9 +284,11 @@ reforge_pickables_inactive:
   - Krump_Spawner_Pickable_Reed_02
   - Krump_Spawner_Pickable_Sticks_Wood
   - Krump_Spawner_Pickable_Treasure_Ocean_01
+  - Krump_Spawner_Treasure_BlackForest
+  - Krump_Spawner_Treasure_Meadows
   - Krump_Spawner_Treasure_Plains
+  - Krump_Spawner_Treasure_Swamps
   - Krump_Spawners_Treasure_Ocean_Cargo
-  - Krump_Spawner_Leviathan_FloatingIsland
   isActive: false
 reforge_spawnlists:
   categoryConfiguredObjects:
@@ -330,6 +346,19 @@ reforge_clutter:
   - KRUMPAC_RANDOMPICKABLE_Vase_04_Small
   - KRUMPAC_RANDOMPICKABLE_Vase_05_Big
   - KRUMPAC_RANDOMPICKABLE_Vase_05_Small
+  - KRUMPAC_RANDOMPICKABLE_Brazier_01
+  - KRUMPAC_RANDOMPICKABLE_Brazier_02
+  - KRUMPAC_RANDOMPICKABLE_Brazier_03
+  - KRUMPAC_RANDOMPICKABLE_Candle_04
+  - KRUMPAC_RANDOMPICKABLE_Candle_05
+  - KRUMPAC_RANDOMPICKABLE_Grave_Single_01
+  - KRUMPAC_RANDOMPICKABLE_Grave_Single_03
+  - KRUMPAC_RANDOMPICKABLE_Grave_Single_05
+  - KRUMPAC_RANDOMPICKABLE_Grave_Single_06
+  - KRUMPAC_RANDOMPICKABLE_Grave_Single_09
+  - KRUMPAC_RANDOMPICKABLE_Grave_Statue_01
+  - KRUMPAC_RANDOMPICKABLE_Grave_Statue_02
+  - KRUMPAC_RANDOMPICKABLE_Grave_Statue_03
   isActive: false
 reforge_animals:
   categoryConfiguredObjects:
