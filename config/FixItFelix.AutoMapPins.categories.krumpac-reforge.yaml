@@ -8,8 +8,24 @@ reforge_altars:
       name: Bragi
       isPermanent: true
       isActive: true
+    Krump_Altar_BlackForest_Freya:
+      name: Freya
+      isPermanent: true
+      isActive: true
+    Krump_Altar_BlackForest_Freyr:
+      name: Freyr
+      isPermanent: true
+      isActive: true
     Krump_Altar_Ocean_Njord:
       name: Njord
+      isPermanent: true
+      isActive: true
+    Krump_Altar_Swamps_Loki:
+      name: Loki
+      isPermanent: true
+      isActive: true
+    Krump_Altar_Mountain_Thor:
+      name: Thor
       isPermanent: true
       isActive: true
   isActive: true
@@ -37,6 +53,11 @@ reforge_spawners:
       isActive: true
   isActive: true
   iconName: spawner
+  iconColorRGBA:
+    red: 255
+    green: 100
+    blue: 0
+    alpha: 255
 reforge_materials:
   individualConfiguredObjects:
     Krump_Spawner_Destroyable_Urchin:
@@ -52,20 +73,20 @@ reforge_materials:
       name: Hemp
       isActive: true
       groupable: true
+      groupingDistance: 50
       iconName: hay
     Krump_Plant_CottonBush:
       name: Cotton
       isActive: true
       groupable: true
       iconName: hay
-    Krump_Spawner_Treasure_BlackForest:
-      name: Treasure
-      isActive: true
-    Krump_Spawner_Treasure_Rune_14_Hagalaz:
-      name: Hagalaz
-      isActive: true
   isActive: true
   iconName: hand
+  iconColorRGBA:
+    red: 255
+    green: 220
+    blue: 40
+    alpha: 255
 reforge_herbs:
   individualConfiguredObjects:
     D_Rosemary_Herb:
@@ -73,6 +94,10 @@ reforge_herbs:
       isActive: true
       groupable: true
     D_RosemarySeed_Herb:
+      name: Rosemary
+      isActive: true
+      groupable: true
+    D_Rosemary_Sapling:
       name: Rosemary
       isActive: true
       groupable: true
@@ -131,10 +156,10 @@ reforge_herbs:
   isActive: true
   iconName: herb48
   iconColorRGBA:
-    Red: 0.0
-    Green: 1.0
-    Blue: 0.0
-    Alpha: 0.5
+    Red: 220
+    Green: 255
+    Blue: 40
+    Alpha: 255
 reforge_trees:
   categoryConfiguredObjects:
   - D_small_Apple_tree
@@ -178,6 +203,11 @@ reforge_mineables:
       groupable: true
   isActive: true
   iconName: mine
+  iconColorRGBA:
+    red: 200
+    green: 150
+    blue: 115
+    alpha: 255
 reforge_dungeons:
   individualConfiguredObjects:
     Crypt5:
@@ -195,16 +225,27 @@ reforge_mineables_inactive:
   - Krump_RP_ENV_Rock_Slate_03
   isActive: false
 reforge_mineable_runes:
+  individualConfiguredObjects:
+    Krump_Spawner_Treasure_Rune_14_Hagalaz:
+      name: Hagalaz
+      isActive: true
   categoryConfiguredObjects:
   - Krump_Runestone_04_Full
   - Krump_Runestone_MineRock_16_Fehu_Full
   - Krump_Runestone_MineRock_10_Othila_Full
-  isActive: false
+  isActive: true
+  iconName: rune
+  iconColorRGBA:
+    red: 0
+    green: 220
+    blue: 255
+    alpha: 255
 reforge_pickables_inactive:
   categoryConfiguredObjects:
   - D_Food_treasure_blackforest
   - D_Food_treasure_meadows
   - D_Food_treasure_swamp
+  - Krump_Spawner_Treasure_BlackForest
   - Krump_Spawner_Pickable_Branch
   - Krump_Spawner_Pickable_DuraKit_01
   - Krump_Spawner_Pickable_Flint
@@ -217,6 +258,7 @@ reforge_pickables_inactive:
   - Krump_Spawner_Pickable_Treasure_Ocean_01
   - Krump_Spawner_Treasure_Plains
   - Krump_Spawners_Treasure_Ocean_Cargo
+  - Krump_Spawner_Leviathan_FloatingIsland
   isActive: false
 reforge_spawnlists:
   categoryConfiguredObjects:
@@ -244,23 +286,14 @@ reforge_clutter:
   - KRUMPAC_RANDOMPICKABLE_Basket_01
   - KRUMPAC_RANDOMPICKABLE_Basket_02
   - KRUMPAC_RANDOMPICKABLE_Candle_01
+  - KRUMPAC_RANDOMPICKABLE_Candle_02
   - KRUMPAC_RANDOMPICKABLE_Candle_03
-  - KRUMPAC_RANDOMPICKABLE_Crate_01_Broken
-  - KRUMPAC_RANDOMPICKABLE_Crate_01_Destroyed
-  - KRUMPAC_RANDOMPICKABLE_Crate_01_Full
-  - KRUMPAC_RANDOMPICKABLE_Vase_01_Big
-  - KRUMPAC_RANDOMPICKABLE_Vase_01_Small
-  - KRUMPAC_RANDOMPICKABLE_Vase_02_Big
-  - KRUMPAC_RANDOMPICKABLE_Vase_02_Small
-  - KRUMPAC_RANDOMPICKABLE_Vase_03_Big
-  - KRUMPAC_RANDOMPICKABLE_Vase_03_Small
-  - KRUMPAC_RANDOMPICKABLE_Vase_04_Big
-  - KRUMPAC_RANDOMPICKABLE_Vase_04_Small
-  - KRUMPAC_RANDOMPICKABLE_Vase_05_Big
-  - KRUMPAC_RANDOMPICKABLE_Vase_05_Small
   - KRUMPAC_RANDOMPICKABLE_Coffin_01
   - KRUMPAC_RANDOMPICKABLE_Coffin_02
   - KRUMPAC_RANDOMPICKABLE_Coffin_03
+  - KRUMPAC_RANDOMPICKABLE_Crate_01_Broken
+  - KRUMPAC_RANDOMPICKABLE_Crate_01_Destroyed
+  - KRUMPAC_RANDOMPICKABLE_Crate_01_Full
   - KRUMPAC_RANDOMPICKABLE_Grave_01
   - KRUMPAC_RANDOMPICKABLE_Grave_02
   - KRUMPAC_RANDOMPICKABLE_Grave_03
@@ -273,6 +306,16 @@ reforge_clutter:
   - KRUMPAC_RANDOMPICKABLE_Grave_10
   - KRUMPAC_RANDOMPICKABLE_Grave_11
   - KRUMPAC_RANDOMPICKABLE_Grave_12
+  - KRUMPAC_RANDOMPICKABLE_Vase_01_Big
+  - KRUMPAC_RANDOMPICKABLE_Vase_01_Small
+  - KRUMPAC_RANDOMPICKABLE_Vase_02_Big
+  - KRUMPAC_RANDOMPICKABLE_Vase_02_Small
+  - KRUMPAC_RANDOMPICKABLE_Vase_03_Big
+  - KRUMPAC_RANDOMPICKABLE_Vase_03_Small
+  - KRUMPAC_RANDOMPICKABLE_Vase_04_Big
+  - KRUMPAC_RANDOMPICKABLE_Vase_04_Small
+  - KRUMPAC_RANDOMPICKABLE_Vase_05_Big
+  - KRUMPAC_RANDOMPICKABLE_Vase_05_Small
   isActive: false
 reforge_animals:
   categoryConfiguredObjects:
@@ -309,7 +352,6 @@ reforge_environment:
   - Krump_RP_ENV_Bush01_heath3
   - Krump_RP_ENV_FirTree_oldLog
   - Krump_RP_ENV_HeathRockPillar
-  - Krump_RP_ENV_MineRock_Tin
   - Krump_RP_ENV_Rock_05
   - Krump_RP_ENV_Rock_3
   - Krump_RP_ENV_Rock_4
