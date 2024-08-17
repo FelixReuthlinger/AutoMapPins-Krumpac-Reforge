@@ -36,7 +36,7 @@ reforge_altars:
       name: Upsala
       isPermanent: true
       isActive: true
-  isActive: true
+  isActive: false
   iconName: temple
 reforge_monuments:
   individualConfiguredObjects:
@@ -52,7 +52,7 @@ reforge_monuments:
       name: Shipwrecks
       isPermanent: true
       isActive: true
-  isActive: true
+  isActive: false
   iconName: monument
 reforge_spawners:
   individualConfiguredObjects:
@@ -234,7 +234,7 @@ reforge_dungeons:
       name: Lindisfarne
       isActive: true
       isPermanent: true
-  isActive: true
+  isActive: false
   iconName: dungeon
 reforge_mineables_inactive:
   categoryConfiguredObjects:

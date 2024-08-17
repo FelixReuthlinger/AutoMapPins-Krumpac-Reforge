@@ -1,3 +1,4 @@
+* 6.2.0 -> deactivated some pins, since reforge does provide some now instead
 * 6.1.4 -> fixes and updates
 * 6.1.3 -> more things added and changed
 * 6.1.2 -> fixed this goes here to remove file instead of overwriting
